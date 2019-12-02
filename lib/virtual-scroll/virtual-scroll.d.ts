@@ -92,7 +92,6 @@ export declare class VirtualScrollerComponent implements OnInit, OnChanges, OnDe
     protected calculatedScrollbarHeight: number;
     protected padding: number;
     protected previousViewPort: IViewport;
-    protected currentTween: tween.Tween;
     protected cachedItemsLength: number;
     protected disposeScrollHandler: () => void | undefined;
     protected disposeResizeHandler: () => void | undefined;
